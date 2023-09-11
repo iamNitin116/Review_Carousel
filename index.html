@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Carousel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Review Section -->
+    <section>
+        <div class="main-wrapper">
+            <div class="upper-ssection">
+                <h1 class="main-heading">Our Review</h1>
+                <div class="underline"></div>
+            </div>
+
+            <div class="main-content">
+                <div class="image">
+                    <img id="emp--img" src="" alt="">
+                </div>
+                <div class="sub-heading">
+                    <h3 id="employee--name" class="employee--name"></h3>
+                    <span id="job--post" class="job--post"></span>
+                </div>
+                <p id="desc" class="desc"></p>
+
+                <div class="arrow--btn">
+                    <button id="prev--btn" class="prev--btn">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button id="next--btn" class="next--btn">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div>
+                    <button id="random--btn" class="random--btn">Surpsise Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
